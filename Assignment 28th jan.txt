@@ -1,0 +1,121 @@
+Assignment 28th jan
+
+
+Answer1
+In Java, conditional operators, also known as ternary operators, are a concise way to express conditional statements. The ternary operator ? : is the only conditional operator in Java. It is a shorthand version of an if-else statement and is often used for simple decision-making within expressions.
+result = (condition) ? valueIfTrue : valueIfFalse;
+
+
+Answer2
+Operators in programming languages can be classified based on the number of operands they operate on. The two main categories are:
+
+Unary Operators:
+
+Unary operators operate on a single operand.
+Examples:
+++ (increment): Increases the value of the operand by 1.
+-- (decrement): Decreases the value of the operand by 1.
+Binary Operators:
+
+Binary operators operate on two operands.
+Examples:
++ (addition): Adds two operands.
+
+Answer3
+In Java, the switch statement is a control flow statement that allows a variable or expression to be tested against a list of values. It provides a more concise way to write multiple if-else statements when you need to compare a variable or expression against multiple possible constant values.
+
+Answer4
+Postfix operators:
+
+expr++ (post-increment)
+expr-- (post-decrement)
+Unary operators:
+
+++expr (pre-increment)
+--expr (pre-decrement)
++expr (unary plus)
+-expr (unary minus)
+!expr (logical NOT)
+~expr (bitwise NOT)
+Multiplicative operators:
+
+* (multiplication)
+/ (division)
+% (modulo)
+Additive operators:
+
++ (addition)
+- (subtraction)
+Shift operators:
+
+<< (left shift)
+>> (right shift with sign extension)
+>>> (right shift with zero extension)
+Relational operators:
+
+< (less than)
+<= (less)
+
+Answer5
+Conditional statements in programming are used to make decisions and execute different blocks of code based on certain conditions. In Java, there are mainly three types of conditional statements:
+
+if Statement:
+
+The if statement is used to execute a block of code if a specified condition is true.
+if (condition) {
+    // Code to be executed if the condition is true
+}
+if-else Statement:
+
+The if-else statement allows you to execute one block of code if a condition is true and another block if the condition is false.
+int y = 7;
+if (y % 2 == 0) {
+    System.out.println("y is even");
+} else {
+    System.out.println("y is odd");
+}
+
+Answer6
+int y = 7;
+if (y % 2 == 0) {
+    System.out.println("y is even");
+} else {
+    System.out.println("y is odd");
+}
+
+Answer7
+for Loop:
+
+The for loop is used when the number of iterations is known in advance. It consists of three parts: initialization, condition, and update.
+while Loop:
+
+The while loop is used when the number of iterations is not known in advance, and the loop continues as long as a specified condition is true.
+
+do-while Loop:
+
+The do-while loop is similar to the `while.
+
+Answer8
+the key difference is that a while loop checks the condition before entering the loop, and a do-while loop checks the condition after executing the loop body at least once. The choice between them depends on the specific requirements of your program. If you want to ensure that the loop body is executed at least once, you might prefer a do-while loop. If you want to check the condition before entering the loop, a while loop might be more appropriate.
+
+Answer9
+public class PrintNumbers {
+    public static void main(String[] args) {
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(i);
+        }
+    }
+}
+When you run this program, it will output:
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
